@@ -1,0 +1,1 @@
+Initialization of the activity given from the instructor Michael Giraldo in the ADSO 3144622 group
