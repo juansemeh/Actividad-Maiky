@@ -84,7 +84,7 @@ nav a.activo {
 .lateral {
   flex: 0 0 300px;
   background: #333;
-  color: white;
+  color: rgba(255, 255, 255, 0.966);
   padding: 20px;
   margin: 120px -5px;
   margin-top: 0;
