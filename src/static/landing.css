@@ -141,21 +141,6 @@ footer {
         margin-top: 20px;
     }
     
-    .subscribe .container {
-        flex-direction: column;
-    }
-    
-    .subscribe h2 {
-        margin-bottom: 15px;
-    }
-    
-    .features .container {
-        flex-direction: column;
-    }
-    
-    .feature-box {
-        margin-bottom: 30px;
-    }
 }
 
 @media (max-width: 480px) {
