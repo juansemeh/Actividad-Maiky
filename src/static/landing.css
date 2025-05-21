@@ -22,7 +22,7 @@ body {
     color: #ffffff;
     padding: 20px 0;
     border-bottom: 3px solid #1e88e5;
-}   
+}
 
 .navbar .container {
     display: flex;
@@ -131,16 +131,25 @@ footer {
 }
 
 
-@media (max-width: 480px) {
-    .subscribe button {
-        width: 100%;
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
     }
     
-    .hero h1 {
-        font-size: 32px;
+    nav ul {
+        margin-top: 20px;
     }
+    
+}
 
-    .error-code {
-        font-size: 80px;
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
     }
 }
