@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #252525;
+    color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 3px solid #1e88e5;
+}   
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #1e88e5;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1e88e5;
+}
+
+nav ul li a.active {
+    color: #1e88e5;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    display: flex;   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* Footer */
+footer {
+    background-color: #1e88e5;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+}
+
+/* 404 Specific Styles */
+.error-code {
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #1e88e5;
+}
+
+.error-message {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e88e5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #1565c0;
+}
+
+
+@media (max-width: 480px) {
+    .subscribe button {
+        width: 100%;
+    }
+    
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .error-code {
+        font-size: 80px;
+    }
+}
