@@ -8,6 +8,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 .container {
@@ -169,11 +176,12 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 60px 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: static;
+    left: unset;
+    bottom: unset;
     width: 100%;
-    z-index: 100;
+    z-index: unset;
+    margin-top: auto;
 }
 
 /* Responsive Design */
